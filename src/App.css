@@ -53,6 +53,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
   z-index: 1000; /* Ensure modal appears above other content */
 }
+@media (max-width: 768px) {
+  .toyota-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .toyota-card h2 {
+    font-size: 1.5rem;
+  }
+}
 
 /* Overlay to cover the full screen and darken background */
 .overlay-class {
